@@ -1,0 +1,111 @@
+.products__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+.products__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #003459;
+}
+.products__button{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: $primary-color;
+    padding: 12px 56px 12px 28px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    background: #FDFDFD;
+    background-repeat: no-repeat;
+    background-image: url(../../img/products-button-bgi.svg);
+    background-position: right 28px center;
+}
+.products__title-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.products__img-block{
+    width: 264px;
+    margin-bottom: 8px;
+}
+.products__item-title{
+    max-width: 248px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+    margin-bottom: 8px;
+}
+.products__item-text-1{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667479;
+    margin-bottom: 4px;
+}
+.products__item-text-2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00171F;
+    margin-bottom: 10px;
+}
+.products__item-link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #002A48;
+    padding: 8px 46px 6px 54px;
+    background: #FCEED5;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/products-item-link-bgi.svg);
+    background-position: left 10px center;
+    max-width: 264px;
+}
+.products__item{
+    padding: 8px 8px 20px 8px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+.products__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.products__item-special{
+    margin-bottom: 20px;
+}
+.products{
+    padding: 60px 0;
+}
+
+@media screen and (max-width:1190px) {
+    .products__block{
+        max-width: 590px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .products__block{
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .products__item{
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,147 @@
+.hero{
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+.hero__content-title{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 5px;
+}
+.hero__content-title-2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 24px;
+}
+.hero__content-text{
+    max-width: 510px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242B33;
+    margin-bottom: 34px;
+}
+.hero__content-button-1{
+    width: 163px;
+    padding: 14px 60px 10px 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: $primary-color;
+    background-color: #FBEED4;
+    background-repeat: no-repeat;
+    background-image: url(../../img/hero-button-bgi.svg);
+    background-position: right 10px center;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+}
+.hero__content-button-2{
+    padding: 14px 35px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #FDFDFD;
+    background-color: $primary-bgcolor;
+    background: #003459;
+    border-radius: 57px;
+}
+.hero__content-button-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 345px;
+}
+.hero__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-image: url(../../img/hero-bgi-little.png),url(../../img/hero-bottom-2-bgi.png);
+    background-position: 600px 48px, left 5px bottom;
+}
+.hero__img-block{
+    width: 675px;
+}
+.hero__content-button-block{
+    padding-bottom: 70px;
+}
+.hero__content-block{
+    padding-top: 80px;
+}
+.hero__content-title::before{
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;   //before ni tugatib qo'y
+    background-image: url(../../img/hero-bgi-before.png);
+    background-position: left;
+}
+.hero__img-mobile-block{
+    display: none;
+}
+
+
+@media screen and (max-width:1217px) {
+    .hero__block{
+        flex-direction: column;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-image: url(../../img/hero-bgi-mobile.png);
+        background-position: 150px 76px;
+        background-position-x: left 150px;
+    }
+    .hero__content-button-block{
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:895px) {
+    .hero__block{
+        background-repeat: no-repeat;
+        background-image: url(../../img/hero-mobile-800-bgi.png);
+        background-position: 300px 80px;
+        background-position-x: right;
+    }
+    
+    .hero__content-title{
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 60px;
+        text-transform: capitalize;
+        max-width: 400px;
+    }
+    .hero__content-title-2{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        text-transform: capitalize;
+        max-width: 320px;
+        margin-bottom: 12px;
+    }
+    .hero__content-text{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 385px;
+        margin-bottom: 32px;
+    }
+    .hero__content-block{
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .hero__img-block{
+        display: none;
+    }
+    .hero__img-mobile-block{
+        display: block;
+    }
+}

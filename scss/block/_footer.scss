@@ -1,0 +1,108 @@
+.footer__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FDFDFD;
+}
+.footer__register-block{
+    background: #003459;
+    border-radius: 16px;
+}
+.footer__input{
+    padding: 14px 330px 14px 28px;
+    background: #FFFFFF;
+    border: 1px solid #99A2A5;
+    border-radius: 8px;
+}
+.footer__button-form{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #FDFDFD;
+    background: #003459;
+    border-radius: 8px;
+    padding: 14px 30px 10px 30px;
+}
+.form-block{
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 707px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+.footer__register-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__register-block{
+    padding: 32px;
+}
+.footer-space{
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    padding-top: 80px;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__item-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+}
+.footer__list{
+    width: 402px;
+}
+.footer-massanger-img-block{
+    width: 24px;
+    height: 24px;
+}
+.footer__massanger-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 216px;
+}
+.footer__content-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.footer-bottom-img{
+    padding: 40px 0;
+}
+
+@media screen and (max-width:1200px) {
+    .footer-block{
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    .footer__register-block{
+        flex-direction: column;
+    }
+    .form-block{
+        max-width: 550px;
+    }
+    .footer__input{
+        padding-right: 50px;
+    }
+    .footer__button-form{
+        width: 241px;
+    }
+    .footer__content-block{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-bottom-img{
+        
+    }
+}
